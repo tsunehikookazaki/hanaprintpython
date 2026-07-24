@@ -94,11 +94,4 @@ pyinstaller --onefile --windowed --name "町会花代記録" main.py
   （CSVはテキストなので、こまめにコピーを取っておけば万一の際も
   中身を目で見て復旧できます）
 
-## 今後カスタマイズしたい点の例
-
-- レシートのレイアウト（文字位置・フォントサイズ）は `printing.py` の
-  `CANVAS_SIZE` や `_draw_vertical_text` の呼び出し部分の数値を調整
-- 集計結果をCSVやPDFで書き出したい場合は `db.get_by_print_date()` の
-  戻り値を使って追加すればOK
-- 印刷前のプレビューをもっと大きく・きれいに見せたい場合は
-  `main.py` の `_preview_and_confirm()` を拡張
+##VB.NET版のアプリが使いやすいです
